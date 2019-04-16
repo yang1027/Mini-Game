@@ -42,7 +42,7 @@ namespace learning4._15
                     Console.WriteLine($"设下一次查找位置为{index+1}位");
 
                     Console.WriteLine();
-
+                    //这个有bug找不到第9位数字
                 }
 
 
