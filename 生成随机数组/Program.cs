@@ -12,7 +12,7 @@ namespace 生成随机数组
 
             int Length = 10;
             int[] array = new int[Length];
-            array[0] = 7;
+            array[0] = 5;
             Console.Write(array[0] + " ");
 
             for (int i = 1; i < Length; i++)
@@ -21,7 +21,7 @@ namespace 生成随机数组
 
                 Console.Write(array[i]+" ");
 
-               // Console.WriteLine(new Random().Next (1,5));
+                Console.WriteLine(new Random().Next(1, 5));
 
             }
 
